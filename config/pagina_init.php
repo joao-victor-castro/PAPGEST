@@ -4,5 +4,8 @@
 // importa autenticação 
 
 session_start();
-include(__DIR__ . "/../config/db_connect.php");
+include(__DIR__ . "/db_connect.php");
+
+include(__DIR__ . "/auth.php");
+require_login();
 ?>

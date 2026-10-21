@@ -1,4 +1,5 @@
 <?php
+$PAGINA_PUBLICA = true;
 include(__DIR__ . "/../config/pagina_init.php");
 // Verificação de sessão em todas as páginas protegidas
 // session_start();
